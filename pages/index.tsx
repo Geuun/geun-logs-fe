@@ -1,5 +1,11 @@
-const Home = () => {
-  return <div className={`text-green-500 text-lg`}>Home</div>
-}
+import Container from 'components/Container';
 
-export default Home
+const Home = () => {
+  return (
+    <Container>
+      <span className={`text-green-500 text-lg`}>Home</span>
+    </Container>
+  );
+};
+
+export default Home;
